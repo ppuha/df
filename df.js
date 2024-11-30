@@ -23,7 +23,7 @@ function Dataframe(data) {
             }
         )
     ) 
-} 
+}
 
 Dataframe.prototype.show = function() {
     console.table(this.data, this.columns)

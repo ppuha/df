@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Dataframe",
+  "version": "1.0",
+
+  "description": "Add Dataframe utilities.",
+
+  "content_scripts": [
+    {
+      "world": "MAIN",
+      "matches": ["<all_urls>"],
+      "js": ["df.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
